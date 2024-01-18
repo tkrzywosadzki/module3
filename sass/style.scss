@@ -112,7 +112,7 @@
     line-height: 60px;
     color: #f1c40f;
     border: 3px solid;
-    border-radius: 33px;
+    border-radius: 50px;
 }
 
 .service h2 {
@@ -158,3 +158,33 @@
     font-size: 14px;
     font-style: italic;
 }
+
+/* header */
+
+.footer {
+    padding: 30px 0;
+}
+
+
+
+.footer .footertext, .footerlinks {
+    text-align: center;
+}
+
+.footer .footerlinks {
+    margin: 16px 0;
+}
+
+.footer .footerlinks i {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    border-radius: 50px;
+    font-size: 20px;
+    color:#ffffff;
+    background-color: black;
+    margin: 0 7px;
+}
+
