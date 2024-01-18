@@ -39,8 +39,10 @@
     background-size: cover;
     background-color: grey;
     background-blend-mode: multiply;
+    background-attachment: fixed;
    
 }
+
 
 .header .logo {
     text-align: center;
@@ -100,7 +102,7 @@
 }
 
 .service {
-text-align: center;
+    text-align: center;
 }
 
 .service i {
@@ -122,4 +124,37 @@ text-align: center;
 
 .service h3 {
     font-size: 14px;
+}
+
+/* portfolio */
+
+
+.portfolio {
+    padding: 120px 0;   
+    background-color: #f7f7f7;
+    
+}
+
+.galeryex {
+    background: #ffffff;
+    text-align: center;
+    height: 100%;
+
+}
+
+
+.galeryex img {
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+}
+
+.galeryex h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.galeryex h3 {
+    font-size: 14px;
+    font-style: italic;
 }
