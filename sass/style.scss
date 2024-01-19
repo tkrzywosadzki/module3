@@ -3,7 +3,7 @@
 .btn {
     display: inline-block;
     min-width: 160px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 30px auto;
     padding: 16px;
     border-radius: 5px;
     text-align: center;
@@ -32,7 +32,6 @@
 
 /*header*/
 .header {
-    min-width: 1400px;
     min-height: 700px;
     background-image:url(https://i.postimg.cc/3JH0rnb2/pexels-willian-justen-de-vasconcellos-792345.jpg);
     background-position: center center;
@@ -89,10 +88,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.header .container {
-    max-width: 1400px;
-    max-height: 700px;
-}
+
 
 
 /* services */
@@ -139,13 +135,14 @@
     background: #ffffff;
     text-align: center;
     height: 100%;
+    margin: 10px 0;
 
 }
 
 
 .galeryex img {
     object-fit: cover;
-    height: 80%;
+    height: 500px;
     width: 100%;
 }
 
@@ -157,6 +154,10 @@
 .galeryex h3 {
     font-size: 14px;
     font-style: italic;
+}
+
+.portfolio .col-4 {
+    margin: 20px 0;
 }
 
 /* header */
